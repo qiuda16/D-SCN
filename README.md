@@ -3,7 +3,7 @@
 The purpose of this project is to filter the input images for **3D reconstruction** in order to **reduce** redundant images to improve the reconstruction accuracy and efficiency.  
 By inputting the coordinates of the pos images, the overlap, base-height ratio, topological relationship and other elements are calculated and the weight matrix is computed.  
 Finally, the sparse matrix is constructed based on the weight matrix, and the matched pairs of images corresponding to the sparse matrix are directly input into COLMAP.
-<div align=center><img alt="POS影像模型" height="=400" src="img/img1.png" width="400"/></div>
+
 
 
 # Instructions for use
